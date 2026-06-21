@@ -7,9 +7,7 @@ import {
   getOptions,
 } from "@/utils/fetchData";
 import Footer from "@/Components/UI/Footer/Footer";
-import Layout from "@/Components/UI/Layout/Layout";
 
-import GoogleReviewsCarousel from "@/Components/UI/GoogleReviews/GoogleReviewsCarousel";
 import GetQuoteForm from "@/Components/UI/Forms/GetQuoteForm";
 import BreadcrumbHero from "@/Components/UI/Hero/BreadcrumbHero";
 export async function generateMetadata(props, parent) {

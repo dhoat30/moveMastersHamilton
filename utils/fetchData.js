@@ -61,22 +61,16 @@ export const getOptions = async () => {
 
 
 
-  // get reivews
-  export const getGoogleReviews = async () => {
-    const baseUrl = process.env.siteUrl; // Change this in production
+//   // get reivews
+//   export const getGoogleReviews = async () => {
+//     const baseUrl = process.env.siteUrl; // Change this in production
 
-    const res = await fetch(`${baseUrl}/api/google-reviews`, { next: { revalidate: 2592000 } });
+//     const res = await fetch(`${baseUrl}/api/google-reviews`, { next: { revalidate: 2592000 } });
 
-    if (!res.ok) { 
-        console.log("failed to retch")
-    return []
-    }
-    return res.json();
+//     if (!res.ok) { 
+//         console.log("failed to retch")
+//     return []
+//     }
+//     return res.json();
   
-};
-
-
-
-
-
-
+// };
