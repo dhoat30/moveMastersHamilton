@@ -58,7 +58,7 @@ export default async function Home() {
 
   // const googleReviews = await getGoogleReviews()
   const options = await getOptions();
-  const googleReviews = await getGoogleReviews();
+  // const googleReviews = await getGoogleReviews();
 
   // const googleReviews = await getGoogleReviews()
   if (!data) return { notFound: true };
